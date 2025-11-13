@@ -10,6 +10,10 @@ Experience the dashboard in action and see how it can transform your e-commerce 
 
 This isn't just another admin panel. It's a complete business management solution designed specifically for online sellers. Whether you're running a small shop or managing hundreds of products, this dashboard gives you everything you need in one place.
 
+## Marketplace Dashboard Preview
+
+![Marketplace Dashboard](./public/market%20place%20with%20nextjs%20by%20seyed%20ahmad%20dv.png)
+
 ### Core Features
 
 **Product Management**
