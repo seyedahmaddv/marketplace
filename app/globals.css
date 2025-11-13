@@ -1,26 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 210 36% 98%;
+    --foreground: 210 15% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 15% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 15% 20%;
+    --primary: 12 76% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 12 64% 44%;
+    --secondary-foreground: 0 0% 100%;
+    --tertiary: 185 55% 45%;
+    --tertiary-foreground: 0 0% 100%;
+    --neutral: 210 36% 98%;
+    --neutral-foreground: 210 15% 20%;
+    --muted: 210 24% 93%;
+    --muted-foreground: 210 10% 30%;
+    --accent: 185 55% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 151 52% 46%;
+    --success-foreground: 0 0% 100%;
+    --warning: 42 99% 46%;
+    --warning-foreground: 0 0% 100%;
+    --border: 210 16% 85%;
+    --input: 210 16% 85%;
+    --ring: 185 55% 45%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 210 36% 10%;
+    --foreground: 210 20% 96%;
+    --card: 210 25% 20%;
+    --card-foreground: 210 20% 96%;
+    --popover: 210 25% 20%;
+    --popover-foreground: 210 20% 96%;
+    --primary: 12 76% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 12 64% 44%;
+    --secondary-foreground: 0 0% 100%;
+    --tertiary: 185 55% 45%;
+    --tertiary-foreground: 0 0% 100%;
+    --neutral: 210 25% 20%;
+    --neutral-foreground: 210 20% 96%;
+    --muted: 210 17% 30%;
+    --muted-foreground: 210 9% 65%;
+    --accent: 185 55% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 151 52% 46%;
+    --success-foreground: 0 0% 100%;
+    --warning: 42 99% 46%;
+    --warning-foreground: 0 0% 100%;
+    --border: 210 17% 30%;
+    --input: 210 17% 30%;
+    --ring: 185 55% 45%;
   }
 }
 
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
 }
