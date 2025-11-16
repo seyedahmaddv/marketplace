@@ -27,7 +27,7 @@ I built this as a real-world SaaS-grade dashboard to prove I can deliver product
 Looking for a developer who can ship fast, clean, and maintainable React/Next.js code? Let's talk!
 
 📧 seyedahmaddv@gmail.com  
-🌐 linkedin.com/in/seyedahmaddv  
+🌐 [linkedin.com/in/seyedahmaddv](linkedin.com/in/seyedahmaddv) 
 ⚡ Open to remote React & Next.js roles worldwide ($20–30/hr)
 
 ⭐ Star this repo if you like it!
