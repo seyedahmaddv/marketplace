@@ -5,6 +5,7 @@ A modern, full-featured marketplace dashboard built for sellers who need powerfu
 ## Live Demo
 
 Experience the dashboard in action and see how it can transform your e-commerce operations.
+[Live Demo](https://marketplace-seyedahmad.vercel.app/)
 
 ## What This Platform Offers
 
