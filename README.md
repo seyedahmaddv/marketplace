@@ -184,7 +184,3 @@ If you find this project helpful, consider:
 - Starring the repository
 - Sharing it with others
 - Providing feedback for improvements
-
----
-
-**Built with attention
